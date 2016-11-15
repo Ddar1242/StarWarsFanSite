@@ -13,16 +13,16 @@ namespace StarWarsFanSite.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Movies()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Saga Biography";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Characters()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Know your favourites";
 
             return View();
         }
