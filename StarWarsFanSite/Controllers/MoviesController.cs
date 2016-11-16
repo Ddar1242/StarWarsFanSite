@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace StarWarsFanSite.Controllers
 {
-    public class HomeController : Controller
+    public class MoviesController : Controller
     {
-        // GET: Home
+        // GET: Movies
         public ActionResult Index()
         {
             return View();
